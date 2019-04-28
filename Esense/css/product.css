@@ -1,0 +1,307 @@
+.page{
+    background-color: #fff !important;
+}
+/*头部*/
+.bar{
+    background-color: #1d1d30;
+    height: 2.5rem;
+}
+.icon-menu{
+    color: #fff;
+}
+.pull-left{
+    width: 8rem;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/*header End*/
+
+/*轮播·*/
+.swiper-container {
+    width: 100%;
+    height: 15rem;
+}
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
+/*轮播 End*/
+.content-padded{
+
+}
+.content-padded-title{
+    font-size: 1rem;
+    text-align: center;
+    color: #4d4d4d;
+    letter-spacing: .1rem;
+}
+
+/**/
+.versionsList{
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+}
+.versionsList ul{
+    overflow: hidden;
+    height: 100%;
+    padding: 0;
+    margin-left:3%;
+}
+.versionsList ul::after{
+    display: none !important;
+}
+.versionsList ul li{
+    margin: 0 1%;
+    list-style: none;
+    float: left;
+    width: 22%;
+    height: 1.8rem;
+}
+.versionsList ul li a{
+    padding: 0;
+    display: block;
+    width: 100%;
+    height: 95%;
+}
+.button{
+    height: 100%!important;
+}
+.active{
+    border-color: #fff!important;
+}
+.basics{
+    background-color: #fd7a42 !important;
+    border-radius: .25rem !important;
+}
+.content-block{
+    width: 100%;
+    padding: 0;
+}
+.content-block img{
+    display: block;
+    width: 100%;
+}
+.button input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    background-color: #d6d6d6;
+    color: #fff;
+    letter-spacing: .15rem;
+    border-radius: .25rem;
+    border: none;
+    font-size: .8rem;
+    font-family: "PingFang SC";
+}
+/* end*/
+/*服务区*/
+.footers{
+    background-color: #454545;
+    overflow: hidden;
+    padding: 0 .5rem;
+    /*-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;*/
+}
+.footers-uls{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.footers-uls ul{
+    width: 22%;
+    height: auto;
+    padding: 0;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    overflow: hidden;
+}
+.footers-uls ul:nth-last-of-type(1) li{
+    text-align: right;
+}
+.footers-uls ul:nth-last-of-type(2){
+    /*padding-left: 1rem;*/
+    margin-left: 4%!important;
+}
+.footers-uls ul li{
+    width:100%;
+    margin: .2rem 0;
+    list-style: none;
+    text-align: left;
+}
+.footers-uls ul li:nth-of-type(1){
+    font-size: .7rem;
+    color: #fff;
+}
+.footers-uls ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: .7rem;
+    color: #d6d6d6;
+}
+.line{
+    width: 100%;
+    height: .1rem;
+    background-color: #6e6e6e;
+    margin-bottom: 1rem;
+}
+.footers-info{
+    padding: 0 1rem;
+}
+.footers-info p{
+    color: #d6d6d6;
+    font-size: .7rem;
+    margin: 0;
+}
+.footers-info p:nth-of-type(1){
+    color: #fff;
+    margin-bottom: .8rem;
+}
+.footers-qrcode{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.footers-qrcode img{
+    width: 5rem;
+}
+.footers-qrcode p{
+    font-size: .8rem;
+    color: #fff;
+    margin: 0;
+}
+.footers-explain{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+.footers-explain ul{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.footers-explain ul li{
+    list-style: none;
+    float: left;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    margin: 0 .5rem;
+    font-size: .6rem;
+    color: #eeeeee;
+}
+/*服务区 End*/
+/*导航登录区*/
+.panel{
+    height: 20rem;
+    background-color: #fff !important;
+}
+.login-register{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.login-register a{
+    display: block;
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: #1d1d30;
+    text-align: center;
+}
+.login-register a:hover{
+    cursor: pointer;
+}
+.login-register-line{
+    width: 100%;
+    height: .05rem;
+    background-color: #bebebe;
+    margin-top: 1rem;
+}
+.login-register-list{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.login-register-list a{
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left:3rem;
+}
+.login-register-list a span{
+    color: #1d1d30;
+    font-size: .8rem;
+}
+.login-register-list a i{
+    margin-left: .5rem;
+    font-style: normal;
+    font-size: .6rem;
+    color: #dedede;
+}
+/*导航登录区 End*/
+/*pc弹框*/
+.pc-make{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 99999;
+    top: 0;
+    bottom: 0;
+    display: none;
+    background-color: rgba(0,0,0,.5);
+}
+.pc-content{
+    width: 90%;
+    height: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: #fff;
+    border-radius: .25rem;
+}
+.pc-content i{
+    float: right;
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1rem;
+    margin-top: .5rem;
+    background-image: url("../images/clones2.png");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.pc-title{
+    clear: both;
+    text-align: center;
+    margin-top: 1rem;
+}
+.pc-info{
+    font-size: .7rem;
+    padding: 0 1rem;
+}
+.pc-btn{
+    height: 2rem !important;
+    width: 50%;
+    line-height: 2rem !important;
+    background-color: #fd7a42;
+    color: #fff;
+    border: 0.1rem solid #fd7a42;
+    letter-spacing: .1rem;
+    font-size: .7rem !important;
+    margin: 0 auto;
+}

@@ -1,0 +1,241 @@
+.bar-nav{
+    background-color: #1d1d30;
+    height: 2.5rem;
+}
+.icon-me{
+    color: #fff;
+}
+.my-btn{
+    color: #fff!important;
+}
+.pull-left{
+    width: 8rem;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.content{
+    background-color: #fff;
+}
+/*tab切换*/
+.buttons-tab{
+    margin-top: .5rem;
+}
+.tab-link{
+    font-size: .7rem !important;
+    padding: 0;
+}
+.buttons-tab .button.active{
+    color: #fd7a42!important;
+    border-color: #fd7a42!important;
+}
+.industry-title{
+    width: 100%;
+}
+.industry-title p:nth-child(1){
+    font-size: .8rem;
+    color: #2e2e2e;
+    height: 1rem;
+    overflow: hidden;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+}
+.industry-title p:nth-child(2){
+    font-size: .7rem;
+    color: #9f9d9d;
+}
+.industry-title p:nth-last-of-type(1){
+    font-size: .6rem;
+    color: #9f9d9d;
+    text-align: right;
+}
+/*tab切换 End*/
+/*分页区*/
+.content-padded{
+    width: 100%;
+    height: 1.3rem;
+    overflow: hidden;
+}
+.pager{
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+}
+.pager li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+    height: 100%;
+    margin: 0 1%;
+    overflow: hidden;
+
+}
+.pager li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: .05rem solid #1d1d30;
+    line-height: 1.3rem;
+    border-radius: .25rem;
+    color: #1d1d30;
+}
+/*分页区 End*/
+
+
+/*服务区*/
+.footers{
+    background-color: #454545;
+    overflow: hidden;
+    padding: 0 .5rem;
+    /*-webkit-backface-visibility: hidden;
+    backface-visibility: hidden;*/
+}
+.footers-uls{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.footers-uls ul{
+    width: 22%;
+    height: auto;
+    padding: 0;
+    float: left;
+    margin-left: 2%;
+    text-align: center;
+    overflow: hidden;
+}
+.footers-uls ul:nth-last-of-type(1) li{
+    text-align: right;
+}
+.footers-uls ul:nth-last-of-type(2){
+    /*padding-left: 1rem;*/
+    margin-left: 4%!important;
+}
+.footers-uls ul li{
+    width:100%;
+    margin: .2rem 0;
+    list-style: none;
+    text-align: left;
+}
+.footers-uls ul li:nth-of-type(1){
+    font-size: .7rem;
+    color: #fff;
+}
+.footers-uls ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: .7rem;
+    color: #d6d6d6;
+}
+.line{
+    width: 100%;
+    height: .1rem;
+    background-color: #6e6e6e;
+    margin-bottom: 1rem;
+}
+.footers-info{
+    padding: 0 1rem;
+}
+.footers-info p{
+    color: #d6d6d6;
+    font-size: .7rem;
+    margin: 0;
+}
+.footers-info p:nth-of-type(1){
+    color: #fff;
+    margin-bottom: .8rem;
+}
+.footers-qrcode{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    overflow: hidden;
+}
+.footers-qrcode img{
+    width: 5rem;
+}
+.footers-qrcode p{
+    font-size: .8rem;
+    color: #fff;
+    margin: 0;
+}
+.footers-explain{
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+.footers-explain ul{
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.footers-explain ul li{
+    list-style: none;
+    float: left;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    margin: 0 .5rem;
+    font-size: .6rem;
+    color: #eeeeee;
+}
+/*服务区 End*/
+/*导航登录区*/
+.panel{
+    height: 20rem;
+    background-color: #fff !important;
+}
+.login-register{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.login-register a{
+    display: block;
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: #1d1d30;
+    text-align: center;
+}
+.login-register a:hover{
+    cursor: pointer;
+}
+.login-register-line{
+    width: 100%;
+    height: .05rem;
+    background-color: #bebebe;
+    margin-top: 1rem;
+}
+.login-register-list{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.login-register-list a{
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left:3rem;
+}
+.login-register-list a span{
+    color: #1d1d30;
+    font-size: .8rem;
+}
+.login-register-list a i{
+    margin-left: .5rem;
+    font-style: normal;
+    font-size: .6rem;
+    color: #dedede;
+}
+/*导航登录区 End*/

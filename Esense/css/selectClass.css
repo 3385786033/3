@@ -1,0 +1,240 @@
+.page{
+    background-color: #F0EFF5 !important;
+}
+/*头部*/
+.bar{
+    background-color: #1d1d30;
+    height: 2.5rem;
+}
+.icon-menu{
+    color: #fff;
+}
+.pull-left{
+    width: 8rem;
+    background-image: url("../images/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/*header End*/
+
+/*导航登录区*/
+.panel{
+    height: 20rem;
+    background-color: #fff !important;
+}
+.login-register{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.login-register a{
+    display: block;
+    height: 100%;
+    width: 50%;
+    float: left;
+    color: #1d1d30;
+    text-align: center;
+}
+.login-register a:hover{
+    cursor: pointer;
+}
+.login-register-line{
+    width: 100%;
+    height: .05rem;
+    background-color: #bebebe;
+    margin-top: 1rem;
+}
+.login-register-list{
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;
+}
+.login-register-list a{
+    margin-top: 1rem;
+    display: block;
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    padding-left:3rem;
+}
+.login-register-list a span{
+    color: #1d1d30;
+    font-size: .8rem;
+}
+.login-register-list a i{
+    margin-left: .5rem;
+    font-style: normal;
+    font-size: .6rem;
+    color: #dedede;
+}
+/*导航登录区 End*/
+
+/*分类区*/
+.list-block{
+    margin: 0;
+    margin-top: .4rem;
+    position: relative;
+}
+.selectClass-list{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+}
+.selectClass-list ul{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+}
+.selectClass-list ul li{
+    list-style: none;
+    float: left;
+    width: 3.5rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.selectClass-list ul li a{
+    color: #1d1d30;
+    font-size: .7rem;
+}
+.onChecked{
+    background-color: #fd7a42;
+    width: 3.5rem;
+    height: 2rem;
+    border-radius: .25rem;
+    color: #fff;
+}
+.onChecked:nth-child(1) a{
+    color: #fff;
+}
+
+/*分类区 End*/
+
+/*列表区*/
+.selectClass-content{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.selectClass-content ul{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+.selectClass-content ul li{
+    list-style: none;
+    width: 48%;
+    height: 12.5rem;
+    overflow: hidden;
+    margin: 0 1% 1rem 1%;
+    float: left;
+    background-color: #fff;
+}
+.selectClass-qrcodeImg{
+    width: 100%;
+    height: 10rem;
+    overflow: hidden;
+}
+.selectClass-qrcodeImg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.selectClass-content ul li p{
+    margin: .5rem 0 0 0;
+    text-align: center;
+}
+/*列表区 End*/
+
+.list-mask{
+    width: 100%;
+    display: none;
+    padding-top: 2.5rem;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 9999999;
+    background-color: rgba(0,0,0,.5);
+}
+.list-make-content{
+    width: 90%;
+    margin: 0 auto;
+    height: 90%;
+    overflow: hidden;
+}
+.make-bg{
+    height: 20%;
+    width: 100%;
+    margin-top: 1rem;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../images/makebg.png");
+    background-position: center;
+    background-size: 100% 100%;
+}
+.make-bg i{
+    display: block;
+    width: 1rem;
+    height: 1rem;
+    float: right;
+    margin-right: .5rem;
+    margin-top: .5rem;
+    background-image: url("../images/close.png");
+    background-position: center;
+    background-size: 100% 100%;
+}
+.make-bg i:hover{
+    cursor: pointer;
+}
+.make-qrcode{
+    width: 100%;
+    padding-top: 2rem;
+    overflow: hidden;
+    background-color: #fff;
+}
+.make-qrcodeImg{
+    width: 50%;
+    height: 30%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.make-qrcodeImg img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.make-qrcode p{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+.make-btn{
+    width: 100%;
+    height: 20%;
+    background-color: #fff;
+}
+.make-btn p{
+    margin: 0;
+}
+.button-round{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fd7a42;
+    border: .05rem solid #fd7a42;
+    color: #fff;
+    letter-spacing: .1rem;
+}
+.makeinfo{
+   margin-top: 1rem !important;
+    text-align: center;
+    font-size: .7rem;
+}

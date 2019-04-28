@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="./css/sm.min.css">
+    <link rel="stylesheet" href="./css/sm-extend.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/selectClass.css">
+</head>
+<body>
+<div class="page-group">
+    <div class="page page-current " id='router'>
+        <header class="bar bar-nav">
+            <a class="button button-link button-nav pull-right my-btn" href="#" data-transition='slide-out'>
+                <span class="icon icon-menu"></span>
+            </a>
+            <a class="button-link button-nav pull-left" href="http://mps.essocial.com.cn/mobile/" external>
+
+            </a>
+        </header>
+        <div class="content">
+            <!--分类区-->
+            <div class="list-block">
+                <ul>
+                    <li class="item-content item-link" id="classInfo">
+                        <div class="item-media"><i class="icon icon-f7"></i></div>
+                        <div class="item-inner">
+                            <div class="item-title">选择分类</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="selectClass-list">
+                <ul>
+                    <li class="onChecked"><a href="#">全部</a></li>
+                    <li><a href="#">电商</a></li>
+                    <li><a href="#">美食</a></li>
+                    <li><a href="#">外卖</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">房产</a></li>
+                    <li><a href="#">新闻资讯</a></li>
+                    <li><a href="#">生活服务</a></li>
+                    <li><a href="#">美容美妆</a></li>
+                    <li><a href="#">KTV</a></li>
+                    <li><a href="#">旅游</a></li>
+                    <li><a href="#">居家</a></li>
+                    <li><a href="#">教育</a></li>
+                    <li><a href="#">母婴</a></li>
+                    <li><a href="#">医药</a></li>
+
+                </ul>
+            </div>
+            <!--分类区 End-->
+
+            <!--列表区-->
+            <div class="selectClass-content">
+                <ul>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                    <li>
+                        <div class="selectClass-qrcodeImg">
+                            <img src="./images/qrcode.png" alt="">
+                        </div>
+                        <p>桂金汇联小程序</p>
+                    </li>
+                </ul>
+            </div>
+            <!--列表区 End-->
+
+            <div class="list-mask">
+                <div class="list-make-content">
+                    <div class="make-bg">
+                        <i id="makeclose"></i>
+                    </div>
+                    <div class="make-qrcode">
+                       <div class="make-qrcodeImg">
+                           <img src="./images/qrcode.png" alt="">
+                       </div>
+                        <p>微信扫一扫，预览小程序</p>
+                    </div>
+                    <div class="make-btn">
+                        <p ><a href="#" class="button button-big button-round">保存图片 </a></p>
+                        <p class="makeinfo">保存至相册通过微信扫码</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 侧边显示-->
+    <div class="panel-overlay"></div>
+    <div class="panel panel-right panel-cover theme-dark" id='panel-js-demo'>
+        <div class="content-block">
+            <!--登录注册-->
+            <div class="login-register">
+                <a href="login.html" external>登录</a>
+                <a href="register.html" external>注册</a>
+            </div>
+            <div class="login-register-line"></div>
+            <div class="login-register-list">
+                <a href="product.html" external>
+                    <span>产品</span><i>Product</i>
+                </a>
+                <a href="serve.html" external>
+                    <span>服务</span><i>Service</i>
+                </a>
+                <a href="selectClass.html" external>
+                    <span>行业案例</span><i>Case</i>
+                </a>
+                <a href="#" external>
+                    <span>解决方案</span><i>Solution</i>
+                </a>
+            </div>
+            <!--登录注册 End-->
+            <!-- Click on link with "close-panel" class will close panel -->
+            <!--<p><a href="#" class="close-panel">关闭</a></p>-->
+        </div>
+    </div>
+    <!-- 侧边显示 End -->
+</div>
+
+<script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./js/sm.min.js' charset='utf-8'></script>
+<script type='text/javascript' src='./js/sm-extend.min.js' charset='utf-8'></script>
+<script>
+    $(document).on("click", ".my-btn", function() {
+        $.openPanel("#panel-js-demo");
+    });
+
+    $('#classInfo').click(function () {
+        $('.selectClass-list').toggle()
+    })
+    $('#makeclose').click(function () {
+        $('.list-mask').toggle()
+    })
+    $('.selectClass-content ul li').click(function () {
+        $('.list-mask').toggle()
+    })
+
+    //分类选择
+    $('.selectClass-list ul li').click(function () {
+        $(this).addClass('onChecked')
+        $(this).children('a').css('color','#fff')
+        $(this).addClass('onChecked').siblings().removeClass('onChecked')
+        $(this).siblings().children('a').css('color','#2e2e2e')
+    })
+</script>
+</body>
+</html>
